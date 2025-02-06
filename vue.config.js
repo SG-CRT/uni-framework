@@ -5,6 +5,7 @@ function resolve(dir) {
 }
 
 module.exports = {
+  transpileDependencies: ['uview-ui'],
   configureWebpack: {
     resolve: {
       alias: {
